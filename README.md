@@ -25,7 +25,7 @@ Retrieves a personalized greeting with the current temperature.
 
 **Response**
 - `200 OK`: Returns a greeting message with the current temperature.
-- `400 Bad Request`: Returns an error message if `visitor_name` is null or empty, or if city information is unavailable.
+- `400 Bad Request`: Returns an error message if `visitor_name` is null or empty.
 
 **Example Request**
 ```bash
